@@ -15,7 +15,7 @@ Stilig
  Installation (assuming Firefox)
 --------------------------------------------
 
- * Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the CSS there.
+* Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the CSS there.
 
 If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does not make any reference to the Gecko engine (lines starting with "-moz") and uses the corresponding WebKit property. Note that since there are multiple websites affected by the stylesheet, each defined using @-moz-document, you might have to split the stylesheet in different parts.
 <br />
