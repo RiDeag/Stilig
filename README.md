@@ -1,10 +1,10 @@
 Stilig
-=====
+======
 
 ![screenshot](http://i.imgur.com/H59oQBJ.png)
 
  Important
---------------
+-----------
 * This style is written for, and will only work with seaweedchan's 4chanX fork available [here] [1].
 
 [1]: http://seaweedchan.github.io/4chan-x/
@@ -12,8 +12,8 @@ Stilig
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [2] for an example.
 
- Installation (assuming Firefox)
---------------------------------------------
+Installation (assuming Firefox)
+-------------------------------
 
 * Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the CSS there.
 
