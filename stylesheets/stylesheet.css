@@ -148,9 +148,9 @@ a.button:hover {
 }
 
 a.button span {
-  padding-left: 50px;
   display: block;
   height: 23px;
+  text-align: center;
 }
 /*
 #download-zip span {
