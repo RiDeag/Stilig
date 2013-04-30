@@ -724,10 +724,12 @@ a.quotelink {
   opacity: 1 !important;
 }
 
+.warning,
 .deadlink,
 .deadlink.quotelink,
 .postMessage strong {
   color:#d56b6b!important;
+  font-weight:normal!important;
 }
 
 .backlink {
@@ -780,10 +782,6 @@ a.quotelink {
 
 .yourPost .post.reply.qphl .fileThumb > img:first-child {
   margin-left: -10px !important;
-}
-
-.warning {
-  color: rgb(204,102,102) !important;
 }
 
 .fileText,
