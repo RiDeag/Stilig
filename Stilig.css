@@ -416,11 +416,22 @@ body {
 }
 
 #watcher {
-  padding-top: 50px !important;
+  padding-top: 26px !important;
   left: 0 !important;
-  width: 160px !important;
+  min-width: 0px !important;
+  max-width: 167px!important;
   box-shadow: none !important;
   height: auto !important;
+  white-space:pre!important;
+  margin-right:15px!important;
+}
+
+#watcher div {
+  padding-right:15px!important;
+}
+
+#watcher a {
+  margin-left:-1px!important;
 }
 
 #watcher > .move {
@@ -429,6 +440,21 @@ body {
   z-index: 800 !important;
   color: transparent !important;
   width: 160px !important;
+}
+
+#watcher .close {
+  position:relative!important;
+  float:right!important;
+  left:12px!important;
+  top:-1px!important;
+}
+
+#watcher .close {
+  visibility:collapse!important;
+}
+
+#watcher:hover .close {
+  visibility:visible!important;
 }
 
 .closed {
@@ -867,10 +893,6 @@ a.quotelink {
 }
 
 #qr select {
-  display: none !important;
-}
-
-.close {
   display: none !important;
 }
 
