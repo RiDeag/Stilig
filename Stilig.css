@@ -125,34 +125,38 @@ body {
   padding:5px 0 !important;
   position:fixed!important;
   top:38px!important;
-  left:200px!important;
-  width: auto !important;
+  left:180px!important;
+  width: 500px !important;
   text-align: center !important;
   background-color:#fff!important;
   border:solid 5px #3d444e!important;
   border-radius: 0 0 5px 5px!important;
 }
 
+#custom-board-list a[href="javascript:;"],
 #full-board-list a[href="javascript:;"] {
   padding:0!important;
+  padding-right:5px!important;
+  padding-left:5px!important;
 }
 
 .hide-board-list-button {
   display:inherit!important;
   font-size:9pt!important;
   position:fixed!important;
-  top: 43px !important;
-  left:118px!important;
+  top: 42px !important;
+  left:110px!important;
   z-index:500!important;
   background:#f4f5f5!important;
   width:10px!important;
+  padding:0!important;
 }
 
 .show-board-list-button {
   display:inherit!important;
   position:fixed!important;
   top: 42px !important;
-  left:120px!important;
+  left:112px!important;
   z-index:499!important;
 }
 
