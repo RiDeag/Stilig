@@ -382,6 +382,7 @@ body {
 
 .fileThumb > img:first-child {
   margin-left: -10px !important;
+  color:pink!important;
 }
 
 .navLinks,
@@ -812,10 +813,11 @@ a.quotelink {
   overflow: scroll!important;
 }
 
-.globalMessage a,
 .abbr a,
 .embedder,
-.linkify {
+.linkify,
+.globalMessage a,
+.fileThumb > img:first-child {
   color: #999!important;
 }
 
