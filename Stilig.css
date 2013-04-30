@@ -1170,7 +1170,7 @@ input[type="submit"] {
 /**
     Menu Button
 */
- 
+
 .menu-button i {
   color: transparent !important;
 }
@@ -1202,8 +1202,9 @@ input[type="submit"] {
 }
  
 .post.op .menu-button {
-  margin-top: 0 !important;
-  margin-right: 18px !important;
+  position: absolute !important;
+  top: 4px !important;
+  right: -2px !important;
   margin-left: 0 !important;
 }
  
@@ -1239,7 +1240,6 @@ input[type="submit"] {
 
 .stub span,
 .sideArrows span,
-.hide-thread-button,
 .hide-reply-button.stub span {
   color: transparent !important;
   font-size: 0 !important;
@@ -1272,6 +1272,17 @@ input[type="submit"] {
   font-size: 0 !important;
 }
 
+.hide-thread-button {
+  position: absolute !important;
+  float: right !important;
+  top: 2px !important;
+  margin-right: 8px !important;
+  right: 0 !important;
+  z-index: 1;
+  font-size: 0 !important;
+}
+
+.hide-thread-button span::before,
 .hide-reply-button span::before {
   content: "-" !important;
   font-size: 9pt !important;
