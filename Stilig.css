@@ -492,6 +492,7 @@ body {
   width: 160px !important;
 }
 
+#watcher div > a[href="javascript:;"],
 #watcher .close {
   position:relative!important;
   float:right!important;
@@ -499,10 +500,12 @@ body {
   top:-1px!important;
 }
 
+#watcher div > a[href="javascript:;"],
 #watcher .close {
   visibility:collapse!important;
 }
 
+#watcher:hover div > a[href="javascript:;"],
 #watcher:hover .close {
   visibility:visible!important;
 }
