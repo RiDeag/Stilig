@@ -141,7 +141,7 @@ body {
   display:inherit!important;
   font-size:9pt!important;
   position:fixed!important;
-  top: 42px !important;
+  top: 43px !important;
   left:118px!important;
   z-index:500!important;
   background:#f4f5f5!important;
@@ -151,7 +151,7 @@ body {
 .show-board-list-button {
   display:inherit!important;
   position:fixed!important;
-  top: 41px !important;
+  top: 42px !important;
   left:120px!important;
   z-index:499!important;
 }
