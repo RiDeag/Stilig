@@ -1,4 +1,4 @@
-![screenshot](http://i.imgur.com/DHJ6vjx.png)
+![screenshot](http://i.imgur.com/b8u3UV5.png)
 
  Important
 -----------
