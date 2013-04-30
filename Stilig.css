@@ -713,7 +713,8 @@ a.quotelink {
   opacity: 1 !important;
 }
 
-.deadlink {
+.deadlink,
+.deadlink.quotelink {
   color:#d56b6b!important;
 }
 
