@@ -1245,12 +1245,22 @@ input[type="submit"] {
   font-size: 0 !important;
 }
 
-.board .stub {
+.postContainer .stub:first-of-type,
+.postContainer .stub {
+  margin-top:0px!important;
+}
+
+.stub {
   padding: 2px 0 !important;
   margin: 0 !important;
+  margin-top:15px!important;
   width: 100% !important;
   background: #e5e5e5 !important;
   border-radius: 5px !important;
+}
+
+.stub:first-of-type {
+  margin-top:25px!important;
 }
 
 .hide-reply-button {
