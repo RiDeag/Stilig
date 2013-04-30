@@ -5,10 +5,8 @@ Stilig
 
  Important
 -----------
-* This style is written for, and will only work with seaweedchan's 4chanX fork available [here] [1].
 
-[1]: http://seaweedchan.github.io/4chan-x/
-[2]: http://i.imgur.com/duPWxIu.png
+* This style is written for, and will only work with seaweedchan's 4chanX fork available [here] [1].
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [2] for an example.
 
@@ -22,3 +20,6 @@ If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does n
 <br />
 
 <sup>Original concept by Myson</sup>
+
+[1]: http://seaweedchan.github.io/4chan-x/
+[2]: http://i.imgur.com/duPWxIu.png
