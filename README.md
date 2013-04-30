@@ -18,7 +18,5 @@ If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does n
 <br />
 <br />
 
-<sup>Original concept by Myson</sup>
-
 [1]: http://seaweedchan.github.io/4chan-x/
 [2]: http://i.imgur.com/duPWxIu.png
