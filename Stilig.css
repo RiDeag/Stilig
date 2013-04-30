@@ -8,7 +8,6 @@
 .boardTitle,
 .boardSubtitle,
 #copyright,
-.postingMode,
 .deleteform,
 .postingMode,
 .stylechanger,
@@ -112,8 +111,58 @@ body {
   text-align: left !important;
 }
 
+#custom-board-list {
+  display: inline !important;
+}
+
+#full-board-list a {
+  white-space:normal!important;
+  margin:0!important;
+  margin-right:-50px!important;
+}
+
+#full-board-list {
+  padding:5px 0 !important;
+  position:fixed!important;
+  top:38px!important;
+  left:200px!important;
+  width: auto !important;
+  text-align: center !important;
+  background-color:#fff!important;
+  border:solid 5px #3d444e!important;
+  border-radius: 0 0 5px 5px!important;
+}
+
+#full-board-list a[href="javascript:;"] {
+  padding:0!important;
+}
+
+.hide-board-list-button {
+  display:inherit!important;
+  font-size:9pt!important;
+  position:fixed!important;
+  top: 42px !important;
+  left:118px!important;
+  z-index:500!important;
+  background:#f4f5f5!important;
+  width:10px!important;
+}
+
+.show-board-list-button {
+  display:inherit!important;
+  position:fixed!important;
+  top: 41px !important;
+  left:120px!important;
+  z-index:499!important;
+}
+
+#full-board-list {
+  color:transparent!important;
+}
+
 #boardNavDesktopFoot,
 #boardNavDesktopFoot>a.current {
+  display:inline!important;
   position:fixed!important;
   font-size: 0 !important;
   top:5000px!important;
@@ -399,7 +448,7 @@ body {
 }
 
 #scroll-marker {
-  display: inherit !important;
+  display: none !important;
 }
 
 #watcher::before {
@@ -572,7 +621,6 @@ body {
   font-weight: 400 !important;
   font-size: 9pt !important;
 }
-
 
 .globalMessage a:hover,
 .hand,
@@ -769,6 +817,14 @@ a.quotelink {
 .embedder,
 .linkify {
   color: #999!important;
+}
+
+#fourchanx-settings.dialog a {
+  color: #49637d !important;
+}
+
+#fourchanx-settings.dialog a:hover {
+  color: #2f4052 !important;
 }
 
 /**
