@@ -1,6 +1,3 @@
-Stilig
-======
-
 ![screenshot](http://i.imgur.com/H59oQBJ.png)
 
  Important
