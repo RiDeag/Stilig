@@ -1,4 +1,4 @@
-![screenshot](http://i.imgur.com/H59oQBJ.png)
+![screenshot](http://i.imgur.com/EnjW818.png)
 
  Important
 -----------
@@ -6,6 +6,8 @@
 * This style is written for, and will only work with seaweedchan's 4chanX fork available [here] [1].
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [2] for an example.
+
+* In order to get the "+" (All boards toggle) after BOARDS you must have "toggle-all" in the Custom Board Navigation
 
 Installation (assuming Firefox)
 -------------------------------
