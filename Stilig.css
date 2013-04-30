@@ -389,6 +389,10 @@ body {
   color:pink!important;
 }
 
+.fileDeleted {
+  padding-left:17px!important;
+}
+
 .navLinks,
 .cataloglink {
   font-size: 0 !important;
@@ -721,7 +725,8 @@ a.quotelink {
 }
 
 .deadlink,
-.deadlink.quotelink {
+.deadlink.quotelink,
+.postMessage strong {
   color:#d56b6b!important;
 }
 
