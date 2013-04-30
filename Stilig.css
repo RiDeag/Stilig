@@ -34,7 +34,7 @@ body {
 }
 
 .board {
-  margin-top: 20px !important;
+  margin-top: -5px !important;
 }
 
 /**
@@ -217,7 +217,7 @@ body {
 }
 
 .opContainer {
-  margin-top: 20px !important;
+  margin-top: 25px !important;
 }
 
 .favicon {
