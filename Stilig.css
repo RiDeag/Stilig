@@ -217,7 +217,7 @@ body {
   box-shadow: -1px 1px 1px rgba(0,0,0,.15);
 }
 
-.opContainer {
+.post.op {
   margin-top: 25px !important;
 }
 
@@ -346,13 +346,13 @@ body {
 .opContainer {
   height: 100% !important;
   width: 100% !important;
-  padding: 0 0 2px 0 !important;
 }
 
 .op {
   display: table !important;
   height: 100% !important;
   width: 100% !important;
+  padding-bottom:3px!important;
 }
 
 .opContainer > div .postInfo:before {
