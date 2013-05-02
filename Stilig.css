@@ -221,6 +221,14 @@ body {
   margin-top: 25px !important;
 }
 
+.threadOP {
+  clear:none!important;
+}
+
+.threadContainer {
+  border-top-left-radius:5px!important;
+}
+
 .favicon {
   display: inline !important;
   float: left !important;
