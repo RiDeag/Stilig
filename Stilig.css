@@ -226,7 +226,8 @@ body {
 }
 
 .threadContainer {
-  border-top-left-radius:5px!important;
+  padding-left:20px!important;
+  margin-left:0px!important;
 }
 
 .favicon {
