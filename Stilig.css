@@ -4,6 +4,7 @@
     Main Layout
 */
 
+#qr #autohide,
 .boardBanner > img,
 .boardTitle,
 .boardSubtitle,
@@ -99,8 +100,8 @@ body {
 }
 
 #board-list a {
-  padding-right: 50px !important;
-  white-space: nowrap;
+  padding-right: 30px !important;
+  white-space: pre;
 }
 
 #board-list {
@@ -1108,7 +1109,8 @@ input[type="submit"] {
 #dump-button {
   background: #fff !important;
   float: left !important;
-  height: 21px !important;
+  margin-top:1px!important;
+  height: 20px !important;
   border-left: 1px solid #dedede !important;
   border-top: 1px solid #dedede !important;
   border-bottom: none !important;
@@ -1242,7 +1244,7 @@ input[type="submit"] {
 */
 
 .stub span,
-.sideArrows span,
+.sideArrows,
 .hide-reply-button.stub span {
   color: transparent !important;
   font-size: 0 !important;
