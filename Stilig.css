@@ -542,7 +542,9 @@ body {
   display:block!important;
   margin-top:-7px!important;
   padding-bottom:1px!important;
-  border-color:#ad4541!important;
+  border-top: 1px dotted !important;
+  height:1px !important;
+  border-color:#3d444e!important;
 }
 
 /**
