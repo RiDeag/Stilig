@@ -208,8 +208,9 @@ body {
   margin-top: 25px !important;
 }
 
+.expanded-image,
 .threadOP {
-  clear:none!important;
+  clear: none !important;
 }
 
 .threadContainer {
