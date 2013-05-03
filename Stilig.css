@@ -1271,16 +1271,17 @@ input[name="sub"] {
 }
 
 .stub {
-  padding: 2px 0 !important;
-  margin: 0 !important;
+  padding: 0 0 0 0 !important;
   margin-top:24px!important;
   width: 100% !important;
   background: #e5e5e5 !important;
   border-radius: 5px !important;
+  min-height: 20px !important;
+  max-height: 20px !important;
 }
 
 .stub:first-of-type {
-  margin-top:25px!important;
+  margin-top: 25px !important;
 }
 
 .hide-reply-button {
@@ -1309,23 +1310,7 @@ input[name="sub"] {
   color: #999 !important;
   z-index: 5 !important;
 }
- 
-.hide-reply-button.stub a {
-  margin-left: 0px !important;
-  color: #999 !important;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
-  font-size: 8pt !important;
-  padding-left: 3px !important;
-}
- 
-.hide-reply-button.stub a::before {
-  display: none !important;
-}
- 
-.hide-reply-button.stub > a:hover {
-  color: #666 !important;
-}
- 
+
 .stub .menu-button,
 .hide-reply-button.stub .menu-button {
   font-size: 0px !important;
@@ -1352,13 +1337,9 @@ input[name="sub"] {
   font-size: 8pt !important;
   padding-left: 2px !important;
 }
- 
+
 .stub > a:hover {
   color: #666 !important;
-}
- 
-.menu-button span {
-  display: none !important;
 }
 
 /**
