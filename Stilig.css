@@ -415,13 +415,23 @@ body {
 
 .cataloglink a::after,
 .navLinks.navLinksBot a[href*="catalog"]::before {
-  content: "Catalog\2003|";
+  content: "Catalog";
+  position: fixed !important;
+  right: 105px !important;
+  top: 10px !important;
+  z-index: 10 !important;
+  font-size: 10pt !important;
+  font-family: "Lucida Grande", sans-serif !important;
+}
+
+.cataloglink a::before,
+.navLinks.navLinksBot a[href*="catalog"]::after {
+  content: "|";
   position: fixed !important;
   right: 87px !important;
   top: 10px !important;
   z-index: 10 !important;
   font-size: 10pt !important;
-  transition: 0.5s color ease;
   font-family: "Lucida Grande", sans-serif !important;
 }
 
@@ -569,7 +579,7 @@ body {
   display: inline !important;
   position: fixed !important;
   top: 9px !important;
-  right: 160px !important;
+  right: 157px !important;
   z-index: 4 !important;
   text-decoration: none !important;
   cursor: pointer !important;
@@ -636,6 +646,8 @@ body {
   border-right: 1px solid #dedede !important;
 }
 
+.cataloglink a::before,
+.navLinks.navLinksBot a[href*="catalog"]::after,
 .cataloglink a::after,
 .navLinks.navLinksBot a[href*="catalog"]::before,
 .settings-link::after,
