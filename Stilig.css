@@ -982,22 +982,6 @@ textarea.field {
   border-right: 1px solid #dedede !important;
 }
 
-input[title="Name"].field,
-input[title="E-mail"].field,
-input[title="Subject"].field {
-  -moz-appearance: none !important;
-  position: relative !important;
-  height: 21px !important;
-  font-size: 10pt !important;
-  background: #fff !important;
-  color: #2e3033 !important;
-  border-top: 1px solid #dedede !important;
-}
-
-input[title="Subject"].field {
-  border-right: 1px solid #dedede !important;
-}
-
 .field {
   border: none !important;
 }
@@ -1014,7 +998,7 @@ textarea:-moz-placeholder {
 
 #qr-filename-container {
   border-bottom-left-radius:4px!important;
-  margin-bottom: 1px !important;
+  margin-bottom: 3px !important;
   border-left: 1px solid #dedede !important;
   overflow: hidden !important;
   max-height: 19px !important;
@@ -1030,6 +1014,9 @@ textarea:-moz-placeholder {
 
 #file-n-submit {
   height:20px!important;
+  border-bottom: 1px solid #dedede !important;
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
 }
 
 #file-n-submit input {
@@ -1111,15 +1098,11 @@ input[type="submit"] {
   border-bottom-right-radius:4px!important;
 }
 
-#qr [type=file] [type=button] {
-  border-left: 1px solid #dedede !important;
-}
-
 #dump-button {
   background: #fff !important;
   float: left !important;
-  margin-top:1px!important;
-  height: 20px !important;
+  min-height: 20px !important;
+  max-height: 20px !important;
   border-left: 1px solid #dedede !important;
   border-top: 1px solid #dedede !important;
   border-bottom: none !important;
@@ -1128,8 +1111,26 @@ input[type="submit"] {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .095) inset;
 }
 
+input[name="name"],
+input[name="email"],
+input[name="sub"] {
+  border-top: 1px solid #dedede !important;
+  max-height:23px!important;
+  min-height:23px!important;
+}
+
+input[name="sub"] {
+  border-right: 1px solid #dedede !important;
+}
+
+.persona {
+  max-height:20px!important;
+  min-height:20px!important;
+}
+
 .captcha-img {
-  margin-top:0px!important;
+  margin-top:0!important;
+  margin-bottom:-1px!important;
   min-width:300px!important;
   max-width:300px!important;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, .095) inset;
