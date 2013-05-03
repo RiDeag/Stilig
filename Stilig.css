@@ -175,26 +175,13 @@ body {
 
 #boardNavDesktopFoot > a.current::after {
   position: fixed !important;
-  top: 7px !important;
+  top: 5px !important;
   left: 10px !important;
   font-size: 12pt !important;
   content: attr(title) !important;
   color: #fff !important;
   font-weight: normal !important;
   z-index: 999 !important;
-  text-shadow: 0px 0px 6px rgba(0,0,0,.5) !important;
-}
-
-#board-list .current::after {
-  position: fixed !important;
-  top: 7px !important;
-  left: 10px !important;
-  font-size: 12pt !important;
-  content: attr(title) !important;
-  color: #fff !important;
-  font-weight: normal !important;
-  z-index: 999 !important;
-  width: auto !important;
 }
 
 #delform {
