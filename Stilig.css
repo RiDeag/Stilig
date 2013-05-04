@@ -777,6 +777,7 @@ a.quotelink {
   margin-left: -12px !important;
 }
 
+.post.reply.qphl .inline .postInfo,
 .yourPost .post.reply.qphl .fileInfo,
 .yourPost .post.reply.qphl .postInfo,
 .post.op.qphl .fileInfo,
@@ -793,6 +794,7 @@ a.quotelink {
   border-left: 2px solid #4183ad !important;
 }
 
+.post.reply.qphl .inline .postMessage,
 .yourPost .post.reply.qphl .postMessage {
   margin-left: 10px !important;
 }
