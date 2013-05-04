@@ -560,43 +560,24 @@ body {
     Global Message
 */
 
-#globalToggle.button.redButton.mobile.hidden,
-#globalToggle.button.redButton.mobile.shown {
-  border:none!important;
-  font-weight:normal!important;
-  background:none!important;
-  padding:0!important;
-  z-index:50!important;
-}
-
-#toggleMsgButton {
-  display:none!important;
-}
-
-#globalToggle {
+.hide-announcement {
   color:white!important;
-  display: inline !important;
   position: fixed !important;
   top: 9px !important;
   right: 157px !important;
-  z-index: 4 !important;
+  z-index: 10 !important;
   text-decoration: none !important;
   cursor: pointer !important;
   font-size: 0;
 }
 
-#globalToggle::after {
+.hide-announcement::after {
   color:#babcbe!important;
-  content: "+";
-  font-size:10pt!important;
-}
-
-#globalToggle.button.redButton.mobile.shown::after{
   content: "-";
   font-size:10pt!important;
 }
 
-.globalMessage {
+.globalMessage.hideMobile {
   z-index:50!important;
   position: fixed !important;
   background-color:#fff!important;
@@ -606,10 +587,6 @@ body {
   right:157px!important;
   top:35px!important;
   padding:5px 0!important;
-}
-
-.globalMessage.hideMobile {
-  display: none;
 }
 
 #globalMessage h3 {
