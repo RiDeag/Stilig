@@ -4,6 +4,7 @@
     Main Layout
 */
 
+#qr .close,
 #qr #autohide,
 .boardBanner > img,
 .boardTitle,
@@ -80,7 +81,7 @@ body {
 
 #header-bar {
   top: 38px !important;
-  height: 20% !important;
+  height: 0px !important;
   width: 158px !important;
   box-shadow: none !important;
   font-family: "Segoe UI", sans-serif !important;
@@ -125,7 +126,7 @@ body {
 #full-board-list {
   padding:5px 0 !important;
   position:fixed!important;
-  top:38px!important;
+  top:35px!important;
   left:180px!important;
   width: 500px !important;
   text-align: center !important;
@@ -421,6 +422,7 @@ body {
   z-index: 10 !important;
   font-size: 10pt !important;
   font-family: "Lucida Grande", sans-serif !important;
+  pointer-events: none!important;
 }
 
 .settings-link {
@@ -441,13 +443,22 @@ body {
 #menu.dialog:not(.left) {
   position: fixed !important;
   right: 0px !important;
-  top: 38px !important;
+  top: 36px !important;
   left: auto !important;
   bottom: auto !important;
   transition: 0.5s color ease;
   width: 120px !important;
   height: auto !important;
-  z-index: 10 !important;
+  z-index: 100 !important;
+  border:4px solid #3d444e!important;
+  border-bottom-left-radius:5px!important;
+  border-bottom-right-radius:5px!important;
+}
+
+#menu.dialog:not(.left) .submenu {
+  border:4px solid #3d444e!important;
+  border-bottom-left-radius:5px!important;
+  border-bottom-right-radius:5px!important;
 }
 
 #header-bar .menu-button::after {
@@ -592,7 +603,7 @@ body {
   border:solid 5px #3d444e!important;
   border-radius: 0 0 5px 5px!important;
   width:500px!important;
-  right:10px!important;
+  right:157px!important;
   top:35px!important;
   padding:5px 0!important;
 }
@@ -952,7 +963,7 @@ a.quotelink {
 #qr.dialog {
   padding: 5px !important;
   position: fixed !important;
-  top: 37px !important;
+  top: 35px !important;
   right: 0px !important;
   left: auto !important;
   width: 300px !important;
@@ -1022,7 +1033,7 @@ textarea:-moz-placeholder {
 }
 
 #file-n-submit {
-  height:20px!important;
+  height: 20px !important;
   border-bottom: 1px solid #dedede !important;
   border-bottom-right-radius: 5px !important;
   border-bottom-left-radius: 5px !important;
@@ -1032,9 +1043,8 @@ textarea:-moz-placeholder {
   width: 25.5% !important;
 }
 
-
 #file-n-submit.has-file input {
-  margin-left:-2px!important;
+  margin-left: -2px !important;
   width: 25.5% !important;
 }
 
@@ -1124,8 +1134,8 @@ input[name="name"],
 input[name="email"],
 input[name="sub"] {
   border-top: 1px solid #dedede !important;
-  max-height:23px!important;
-  min-height:23px!important;
+  max-height: 23px !important;
+  min-height: 23px !important;
 }
 
 input[name="sub"] {
@@ -1133,8 +1143,8 @@ input[name="sub"] {
 }
 
 .persona {
-  max-height:20px!important;
-  min-height:20px!important;
+  max-height: 20px !important;
+  min-height: 20px !important;
 }
 
 .captcha-img {
@@ -1250,6 +1260,7 @@ input[name="sub"] {
   background: #ffffff !important;
   color: #999 !important;
   font-size: 8pt !important;
+  border:none!important;
 }
 
 .entry:hover,
