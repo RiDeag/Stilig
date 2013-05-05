@@ -124,17 +124,28 @@ body {
 }
 
 #full-board-list {
+  display:inline !important;
+  visibility: hidden !important;
   padding:5px 0 !important;
   position:fixed!important;
-  top:35px!important;
+  top:-50px!important;
   left:180px!important;
   width: 500px !important;
   text-align: center !important;
   background-color:#fff!important;
   border:solid 5px #3d444e!important;
   border-radius: 0 0 5px 5px!important;
+  transition: all 0.5s ease;
+  z-index: -10 !important;
 }
 
+#full-board-list:not([Hidden]) {
+  visibility: visible !important;
+  top: 35px !important;
+  bottom: auto !important;
+  transition: all 0.5s ease;
+}
+    
 #custom-board-list a[href="javascript:;"],
 #full-board-list a[href="javascript:;"] {
   padding:0!important;
@@ -561,46 +572,47 @@ body {
 */
 
 .hide-announcement {
-  color:white!important;
-  position: fixed !important;
-  top: 9px !important;
-  right: 157px !important;
+  width: 100% !important;
   z-index: 10 !important;
   text-decoration: none !important;
   cursor: pointer !important;
-  font-size: 0;
+  font-size: 0 !important;
 }
 
 .hide-announcement::after {
-  color:#babcbe!important;
-  content: "-";
-  font-size:10pt!important;
+  text-align: center !important;
+  left: 27% !important;
+  margin-top: -10px !important;
+  position: absolute !important;
+  float: none !important;
+  margin-left: 250px !important;
+  color: #ad4541 !important;
+  content: "Hide Announcement";
+  font-size: 12pt !important;
 }
 
-.globalMessage.hideMobile {
-  z-index:50!important;
-  position: fixed !important;
-  background-color:#fff!important;
-  border:solid 5px #3d444e!important;
-  border-radius: 0 0 5px 5px!important;
-  width:500px!important;
-  right:157px!important;
-  top:35px!important;
-  padding:5px 0!important;
+#globalMessage {
+  margin-top: 30px !important;
+  background-color: #fff !important;
+  min-width: 100% !important;
+  z-index: 0 !important;
+  border-radius: 5px !important;
+  box-shadow: -1px 1px 1px rgba(0,0,0,.15);
+  padding: 5px 0 !important;
 }
 
 #globalMessage h3 {
-  font-size:10pt!important;
-  color:#5F5F5F!important;
-  font-weight:normal!important;
-  margin:2px!important;
+  font-size: 10pt !important;
+  color: #5F5F5F !important;
+  font-weight: normal !important;
+  margin: 2px !important;
 }
 
 #globalMessage strong, h2 {
-  margin:2px!important;
-  font-size:10pt!important;
-  color:#5F5F5F!important;
-  font-weight:normal!important;
+  margin: 2px !important;
+  font-size: 10pt !important;
+  color: #5F5F5F !important;
+  font-weight: normal !important;
 }
 
 /**
@@ -664,7 +676,7 @@ body {
 .hand:hover,
 .posteruid:hover,
 .posteruid:hover .hand{
-  color:#434347!important;
+  color: #434347 !important;
 }
 
 .name {
@@ -733,8 +745,8 @@ a.quotelink {
 .deadlink,
 .deadlink.quotelink,
 .postMessage strong {
-  color:#d56b6b!important;
-  font-weight:normal!important;
+  color: #d56b6b !important;
+  font-weight: normal !important;
 }
 
 .backlink {
@@ -806,10 +818,6 @@ a.quotelink {
   color: #7a7f88 !important;
   font-weight:600!important;
 }
-
-.quote.linkify {
-  color:red!important;
- }
 
 .quote a,
 .prettyprint a,
@@ -940,12 +948,21 @@ a.quotelink {
 #qr.dialog {
   padding: 5px !important;
   position: fixed !important;
-  top: 35px !important;
+  display: inline !important;
+  visibility: hidden !important;
+  top: -216px !important;
   right: 0px !important;
   left: auto !important;
   width: 300px !important;
   background: #3d444e !important;
   box-shadow: none !important;
+  z-index: 2 !important;
+  transition: all 0.5s ease;
+}
+
+#qr.dialog:not([Hidden]) {
+  visibility: visible !important;
+  top: 35px !important;
 }
 
 #qr .move {
