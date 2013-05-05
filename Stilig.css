@@ -960,9 +960,15 @@ a.quotelink {
   transition: all 0.5s ease;
 }
 
+#qr.dialog.has-captcha:not([Hidden]),
 #qr.dialog:not([Hidden]) {
   visibility: visible !important;
   top: 35px !important;
+}
+
+#qr.dialog.has-captcha {
+  top:-298px !important;
+  transition: all 0.9s ease;
 }
 
 #qr .move {
