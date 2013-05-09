@@ -653,6 +653,7 @@ body {
   font-size: 9pt !important;
 }
 
+#dump-button:hover,
 .globalMessage a:hover,
 .hand,
 .posteruid,
@@ -1032,6 +1033,25 @@ textarea:-moz-placeholder {
   max-width: 74.3% !important;
 }
 
+#qr.has-spoiler .has-file #qr-filename-container {
+  min-width: 68.3% !important;
+  max-width: 68.3% !important;
+}
+
+#qr-spoiler-label {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .095) inset;
+  border-top: 1px solid #ddd !important;
+  border-bottom: 1px solid #ddd !important;
+  max-height: 19px !important;
+  min-height: 19px !important;
+  margin-left: -1px !important;
+  background: white !important;
+}
+
+#qr-spoiler-label input {
+  top: 1px !important;
+}
+
 #qr-filename {
   min-width: 92% !important;
   max-width: 92% !important;
@@ -1121,19 +1141,6 @@ input[type="submit"] {
   border-top:none!important;
   border-right: 1px solid #dedede !important;
   border-bottom-right-radius:4px!important;
-}
-
-#dump-button {
-  background: #fff !important;
-  float: left !important;
-  min-height: 20px !important;
-  max-height: 20px !important;
-  border-left: 1px solid #dedede !important;
-  border-top: 1px solid #dedede !important;
-  border-bottom: none !important;
-  border-right: none !important;
-  -moz-appearance: none !important;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, .095) inset;
 }
 
 input[name="name"],
