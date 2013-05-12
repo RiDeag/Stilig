@@ -11,6 +11,8 @@
 
 * Sadly, many parts of the stylesheet break when used on Chrome. I may get around to fixing it one day, but I wouldn't count on it. Sorry.
 
+* Toggle the sidebar by toggling header auto-hide (Default keybind is ctrl + h).
+
 Installation (assuming Firefox)
 -------------------------------
 
