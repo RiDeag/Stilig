@@ -167,10 +167,6 @@ body {
   bottom: auto !important;
   transition: all 0.5s ease;
 }
-/*
-#header-bar.autohide .notification {
-  background:red!important;
-}*/
 
 #custom-board-list a[href="javascript:;"],
 #full-board-list a[href="javascript:;"] {
