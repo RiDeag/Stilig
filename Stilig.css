@@ -4,7 +4,7 @@
     Main Layout
 */
 
-#watcher .move > .close,
+/*#watcher .move > .close,*/
 #qr .close,
 #qr #autohide,
 .boardBanner > img,
@@ -26,10 +26,8 @@ div.center,
 }
 
 body {
-  margin-left: 190px !important;
-  margin-right: 23px !important;
   margin-top: 20px !important;
-  font-family: "Segoe UI", sans-serif !important;
+  font-family: "Lucida Grande", sans-serif !important;
 }
 
 *:active, *:focus {
@@ -37,6 +35,8 @@ body {
 }
 
 .board {
+  margin-right: 23px !important;
+  margin-left: 190px !important;
   margin-top: -5px !important;
 }
 
@@ -45,6 +45,7 @@ body {
 */
 
 #board-list::before {
+  display: inline !important;
   content: "" !important;
   background: #3d444e !important;
   position: fixed !important;
@@ -81,11 +82,11 @@ body {
 }
 
 #header-bar {
-  top: 38px !important;
+  top: 30px !important;
   height: 0px !important;
   width: 158px !important;
   box-shadow: none !important;
-  font-family: "Segoe UI", sans-serif !important;
+  font-family: "Lucida Grande", sans-serif !important;
 }
 
 #notifications {
@@ -104,6 +105,26 @@ body {
 #board-list a {
   padding-right: 50px !important;
   white-space: pre;
+}
+
+#header-bar.autohide #board-list::before,
+#header-bar.autohide {
+  transform: none !important;
+  transition: none !important;
+}
+
+#header-bar.autohide #board-list::after,
+#header-bar.autohide #board-list,
+#header-bar.autohide #shortcuts::after,
+.autohide #watcher.dialog,
+.autohide #thread-stats,
+.autohide #update-timer,
+.autohide #update-status.new  {
+  left: -500px !important;
+}
+
+.autohide body {
+  margin-left: -167px !important;
 }
 
 #board-list {
@@ -146,7 +167,11 @@ body {
   bottom: auto !important;
   transition: all 0.5s ease;
 }
-    
+/*
+#header-bar.autohide .notification {
+  background:red!important;
+}*/
+
 #custom-board-list a[href="javascript:;"],
 #full-board-list a[href="javascript:;"] {
   padding:0!important;
@@ -419,7 +444,7 @@ body {
   position: fixed !important;
   right: 105px !important;
   top: 10px !important;
-  z-index: 10 !important;
+  z-index: 36 !important;
   font-size: 10pt !important;
   font-family: "Lucida Grande", sans-serif !important;
 }
@@ -430,7 +455,7 @@ body {
   position: fixed !important;
   right: 87px !important;
   top: 10px !important;
-  z-index: 10 !important;
+  z-index: 36 !important;
   font-size: 10pt !important;
   font-family: "Lucida Grande", sans-serif !important;
   pointer-events: none!important;
@@ -491,26 +516,23 @@ body {
   font-size: 5pt !important;
 }
 
-#scroll-marker {
-  display: none !important;
-}
-
 #watcher::before {
-  margin-top: -31px !important;
+  margin-top: -36px !important;
   text-align: center !important;
   content: "WATCHED THREADS" !important;
   width: 166px !important;
-  padding: 4px 0 6px 0 !important;
+  padding: 9px 0 6px 0 !important;
   background: #f4f5f5 !important;
   font-size: 10pt !important;
   font-weight: normal !important;
-  position: fixed !important;
-  z-index: 1 !important;
+  position: absolute !important;
+  z-index: 40 !important;
 }
 
 #watcher {
+  position: fixed !important;
   display: inline !important;
-  padding-top: 26px !important;
+  padding-top: 36px !important;
   left: 0 !important;
   min-width: 0px !important;
   max-width: 167px!important;
@@ -530,7 +552,8 @@ body {
 
 #watcher > .move {
   margin-top: -30px !important;
-  position: fixed !important;
+  height: 15px !important;
+  position: absolute !important;
   z-index: 800 !important;
   color: transparent !important;
   width: 165px !important;
@@ -594,9 +617,10 @@ body {
 }
 
 #globalMessage {
+  margin-right: 23px !important;
+  margin-left: 190px !important;
   margin-top: 30px !important;
   background-color: #fff !important;
-  min-width: 100% !important;
   z-index: 0 !important;
   border-radius: 5px !important;
   box-shadow: -1px 1px 1px rgba(0,0,0,.15);
@@ -1071,7 +1095,7 @@ textarea:-moz-placeholder {
 
 #file-n-submit.has-file input {
   margin-left: -2px !important;
-  width: 25.5% !important;
+  width: 25.9% !important;
 }
 
 #qr-filerm {
@@ -1343,7 +1367,7 @@ input[name="sub"] {
 .hide-reply-button.stub .menu-button {
   font-size: 0px !important;
   color: transparent !important;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
   margin-top: 3px !important;
   margin-right: 3px !important;
 }
@@ -1355,13 +1379,13 @@ input[name="sub"] {
   content: "+" !important;
   font-size: 9pt !important;
   color: #999 !important;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
 }
  
 .stub a {
   margin-left: 0px !important;
   color: #999 !important;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
   font-size: 8pt !important;
   padding-left: 2px !important;
 }
