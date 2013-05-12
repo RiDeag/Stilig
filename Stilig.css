@@ -209,7 +209,7 @@ body {
 
 #boardNavDesktopFoot > a.current::after {
   position: fixed !important;
-  top: 5px !important;
+  top: 8px !important;
   left: 10px !important;
   font-size: 12pt !important;
   content: attr(title) !important;
@@ -415,7 +415,7 @@ body {
   content: "Catalog";
   position: fixed !important;
   right: 105px !important;
-  top: 10px !important;
+  top: 8px !important;
   z-index: 36 !important;
   font-size: 10pt !important;
   font-family: "Lucida Grande", sans-serif !important;
@@ -426,7 +426,7 @@ body {
   content: "|";
   position: fixed !important;
   right: 87px !important;
-  top: 10px !important;
+  top: 8px !important;
   z-index: 36 !important;
   font-size: 10pt !important;
   font-family: "Lucida Grande", sans-serif !important;
@@ -445,7 +445,7 @@ body {
   transition: 0.5s color ease;
   position: fixed !important;
   right: 24px !important;
-  top: 10px !important;
+  top: 8px !important;
 }
 
 #menu.dialog:not(.left) {
