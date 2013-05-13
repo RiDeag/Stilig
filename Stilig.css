@@ -1196,7 +1196,7 @@ input[name="sub"] {
  
 .menu-button {
   float: right !important;
-  margin-top: 1px !important;
+  margin-top: 0 !important;
   margin-right: 15px !important;
   margin-left: 10px !important;
   font-size: 0 !important;
@@ -1222,8 +1222,8 @@ input[name="sub"] {
  
 .post.op .menu-button {
   position: absolute !important;
-  top: 4px !important;
-  right: -2px !important;
+  top: 3px !important;
+  right: 2px !important;
   margin-left: 0 !important;
 }
  
