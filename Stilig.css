@@ -201,14 +201,14 @@ body {
 }
 
 #boardNavDesktopFoot,
-#boardNavDesktopFoot>a.current {
+#boardNavDesktopFoot .current {
   display:inline!important;
   position:fixed!important;
   font-size: 0 !important;
   top:5000px!important;
 }
 
-#boardNavDesktopFoot > a.current::after {
+#boardNavDesktopFoot .current::after {
   position: fixed !important;
   top: 8px !important;
   left: 10px !important;
