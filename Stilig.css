@@ -219,6 +219,15 @@ body {
   z-index: 999 !important;
 }
 
+#board-list .current ~ .current {
+  display: none !important;
+}
+
+#board-list .current {
+  padding: 0 0 0 2px !important;
+  border-bottom: none !important;
+}
+
 #delform {
   border: none !important;
   background: none !important;
@@ -233,7 +242,7 @@ body {
   background-color: #fff !important;
   min-width: 100% !important;
   margin-top: 5px !important;
-  margin-bottom: 15px !important;
+  margin-bottom: 8px !important;
   z-index: 0 !important;
   border-radius: 5px !important;
   box-shadow: -1px 1px 1px rgba(0,0,0,.08);
@@ -371,18 +380,13 @@ body {
   display: none !important;
 }
 
-.fileInfo {
+.fileText {
   margin-left: 8px !important;
 }
 
-.op .fileInfo {
+.op .fileText {
   padding-top: 5px !important;
   margin-left: 10px !important;
-}
-
-.op .file {
-  padding-bottom: 2px !important;
-  margin: 0px -6px 2px -2px !important;
 }
 
 .postMessage {
@@ -402,6 +406,10 @@ body {
 .navLinks,
 .cataloglink {
   font-size: 0 !important;
+}
+
+#index-search {
+  margin-left: 190px !important;
 }
 
 .cataloglink a::after,
@@ -428,18 +436,18 @@ body {
 }
 
 .settings-link {
+  position: fixed !important;
+  top: 8px !important;
+  right: 28px !important;
   font-size: 0 !important;
 }
 
-.settings-link::after {
+.settings-link.fa-wrench:before {
   font-family: "Lucida Grande", sans-serif !important;
   content: "Settings" !important;
   font-size: 10pt !important;
   font-weight: normal !important;
-  transition: 0.5s color ease;
-  position: fixed !important;
-  right: 24px !important;
-  top: 8px !important;
+  width: 0 !important;
 }
 
 #menu.dialog:not(.left) {
@@ -566,7 +574,7 @@ body {
 
 #unread-line {
   display:block!important;
-  margin-top:-7px!important;
+  margin-top: -2px!important;
   padding-bottom:1px!important;
   border-top: 1px dotted !important;
   height:1px !important;
@@ -645,8 +653,8 @@ body {
 .navLinks.navLinksBot a[href*="catalog"]::after,
 .cataloglink a::after,
 .navLinks.navLinksBot a[href*="catalog"]::before,
-.settings-link::after,
-#header-bar .menu-button i::before {
+#header-bar .menu-button i::before,
+.settings-link.fa-wrench:before {
   color: #babcbe !important;
 }
 
@@ -672,9 +680,7 @@ body {
 .inline .backlink:hover,
 .postMessage .linkify:hover,
 .embedder:hover,
-.fileText:hover a,
-.fileText:hover,
-.fileInfo a:hover,
+.fileText a:hover,
 .summary:hover,
 #thread-watcher a:hover,
 #board-list a:hover {
@@ -760,6 +766,10 @@ a.quotelink {
 .backlink {
   font-size: 0 !important;
 }
+
+.backlink:first-of-type {
+  margin-left: 10px !important;
+}
     
 .backlink:after {
   content: url('http://i.imgur.com/hgZtiTC.png') !important;
@@ -792,7 +802,7 @@ a.quotelink {
 }
 
 .fileText,
-.fileInfo a {
+.file a {
   color: #828282 !important;
   text-decoration: none !important;
   font-style: italic !important;
