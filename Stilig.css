@@ -243,7 +243,6 @@ body {
   min-width: 100% !important;
   margin-top: 5px !important;
   margin-bottom: 8px !important;
-  z-index: 0 !important;
   border-radius: 5px !important;
   box-shadow: -1px 1px 1px rgba(0,0,0,.08);
 }
@@ -357,6 +356,13 @@ body {
   width: 100% !important;
   padding-bottom:3px!important;
 }
+
+/*.op::after {
+  content: "" !important;
+  display: table !important;
+  clear: both !important;
+}*/
+
 
 .watch-thread-link {
   position: relative !important;
