@@ -5,7 +5,7 @@
 
 * This is my fork of [RiDeag][1]'s excellent CSS style for 4chan
 
-* This style is written for ccd'0s 4chanX fork available [here] [2].
+* This style is written to work with ccd'0s 4chanX fork available [here] [2].
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [3] for an example.
 
