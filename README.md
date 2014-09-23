@@ -15,7 +15,7 @@
 
 * Toggle the sidebar by toggling header auto-hide (Default keybind is shift + h).
 
-* Click the "S" in "WATCHED THREADS" to open the thread watcher menu. Unfortunately, the menu still needs some tweaking, which is why it looks like a mess :(
+* Click the "S" in "WATCHED THREADS" to open the thread watcher menu. Unfortunately, it still needs some tweaking, which is why the thread watcher menu looks like a mess :(
 
 Installation (assuming Firefox)
 -------------------------------
