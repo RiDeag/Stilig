@@ -15,14 +15,12 @@
 
 * Toggle the sidebar by toggling header auto-hide (Default keybind is shift + h).
 
-* Click the "S" in "WATCHED THREADS" to open the thread watcher menu. Unfortunately, it still needs some tweaking, which is why the thread watcher menu looks like a mess :(
+* Click the "S" in "WATCHED THREADS" to open the thread watcher menu.
 
 Installation (assuming Firefox)
 -------------------------------
 
 * Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the Stilig.css there.
-
-* Do the same for Stilig thread watcher.css
 
 [1]: https://github.com/RiDeag/Stilig
 [2]: https://github.com/ccd0/4chan-x
