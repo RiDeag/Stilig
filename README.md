@@ -1,11 +1,11 @@
-![screenshot](https://raw.githubusercontent.com/mudanaku/Stilig/master/screenshots.png)
+![screenshot](https://raw.githubusercontent.com/RiDeag/Stilig/master/screenshots.png)
 
  Important
 -----------
 
-* This is my fork of [RiDeag][1]'s excellent CSS style for 4chan
+* This style is written to work with ccd'0s 4chanX fork available [here] [1].
 
-* This style is written to work with ccd'0s 4chanX fork available [here] [2].
+* Big thanks to [mudanaku] [2] for updating and fixing this style.
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [3] for an example.
 
@@ -22,7 +22,6 @@ Installation (assuming Firefox)
 
 * Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the CSS there.
 
-[1]: https://github.com/RiDeag/Stilig
-[2]: https://github.com/ccd0/4chan-x
+[1]: https://github.com/ccd0/4chan-x
+[2]: https://github.com/mudanaku/
 [3]: http://i.imgur.com/opfVRLw.png
-
