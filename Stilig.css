@@ -465,7 +465,6 @@ div.navLinks.desktop {
   font-family: "Calibri" !important;
   content: "Settings" !important;
   font-size: 11pt !important;
-
 }
 
 #menu.dialog:not(.left) {
@@ -594,7 +593,7 @@ div.navLinks.desktop {
   margin-right: -15px !important;
   height: 18px !important;
 }
-    
+
 .closed {
   padding-top:20px!important;
   padding-bottom:20px!important;
