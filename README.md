@@ -24,5 +24,5 @@ Installation (assuming Firefox)
 
 [1]: https://github.com/RiDeag/Stilig
 [2]: https://github.com/ccd0/4chan-x
-[3]: http://i.imgur.com/duPWxIu.png
+[3]: http://i.imgur.com/opfVRLw.png
 
