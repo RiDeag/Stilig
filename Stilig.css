@@ -1243,7 +1243,7 @@ input[name="sub"] {
 .menu-button {
   float: right !important;
   margin-top: 0 !important;
-  margin-right: 15px !important;
+  margin-right: 5px !important;
   margin-left: 10px !important;
   font-size: 0 !important;
 }
