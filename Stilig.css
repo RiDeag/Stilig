@@ -549,48 +549,52 @@ div.navLinks.desktop {
   overflow: hidden !important;
   text-overflow: ellipsis !important;
 }
-/**
+
 #thread-watcher > .move {
-  margin-top: -30px !important;
-  height: 15px !important;
-  position: absolute !important;
+  color: transparent !important;
+  height: 18px !important;
+  width: 144px !important;
+  margin-top: -35px !important;
   z-index: 800 !important;
+  position: absolute !important;
+}
+
+#thread-watcher .refresh,
+#thread-watcher .fa.fa-times {
+  display: none !important;
+}   
+    
+#thread-watcher .menu-button,
+#thread-watcher .menu-button:hover {
   color: transparent !important;
-  width: 165px !important;
-  padding: 4px 0 6px 0 !important;
+  width: 10px !important;
+  top: -13px !important;
+  right: -13px !important;
+} 
+    
+#thread-watcher a.entry:nth-child(1),
+#thread-watcher a.entry:nth-child(2) {
+  font-size: 9pt !important;
+  opacity: 1 !important;
+  left: 3px !important;
+  top: 2px !important;
+  width: 115px !important;
+}
+    
+#thread-watcher span.entry {
+  font-size: 9pt !important;
+  margin-top: 1px !important;
+  margin-bottom: -1px !important;
+  height: 20px !important;
+  width: 115px !important;
 }
 
-#thread-watcher div > a[href="javascript:;"]:not(.menu-button),
-#thread-watcher .close {
-  position: relative !important;
-  float: right !important;
-  left: 12px !important;
-  top: -1px !important;
+#thread-watcher label {
+  width: 115px !important;
+  margin-right: -15px !important;
+  height: 18px !important;
 }
-
-#thread-watcher div > a[href="javascript:;"]:not(.menu-button),
-#thread-watcher .close,
-#thread-watcher .menu-button {
-  visibility: collapse !important;
-}
-
-#thread-watcher:hover div > a[href="javascript:;"]:not(.menu-button),
-#thread-watcher:hover .close,
-#thread-watcher:hover .menu-button {
-  visibility: visible !important;
-}
-
-#thread-watcher a[href="javascript:;"] {
-  position: relative !important;
-  top: -27px !important; 
-  right: -10px !important;
-  height: 10px !important;
-}
-
-#thread-watcher a[href="javascript:;"]:not(i) {
-  color: transparent !important;
-}
-*/
+    
 .closed {
   padding-top:20px!important;
   padding-bottom:20px!important;
