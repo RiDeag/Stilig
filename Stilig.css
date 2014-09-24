@@ -130,10 +130,12 @@ div.navLinks.desktop {
 #header-bar.autohide #board-list::after,
 #header-bar.autohide #board-list,
 #header-bar.autohide #shortcuts::after,
+#header-bar.autohide .show-board-list-button,
 .autohide #thread-watcher.dialog,
 .autohide #thread-stats,
 .autohide #update-timer,
-.autohide #update-status.new  {
+.autohide #update-status.new
+.show-board-list-button {
   left: -500px !important;
 }
 
@@ -1504,3 +1506,4 @@ textarea:focus {
 }
 
 }
+
