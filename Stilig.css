@@ -27,8 +27,8 @@ div.center,
 }
 
 body {
-  margin-top: 20px !important;
-  font-family: "Lucida Grande", sans-serif !important;
+  margin-top: -10px !important;
+  font-family: "Calibri" !important;
 }
 
 *:active, *:focus {
@@ -38,9 +38,22 @@ body {
 .board {
   margin-right: 23px !important;
   margin-left: 190px !important;
-  margin-top: -5px !important;
+  margin-bottom: 10px !important;
 }
 
+/**
+    4chan updates
+*/
+    
+.boardBanner,
+table#blotter.desktop {
+  display: none !important;
+}
+
+div.navLinks.desktop {
+  margin-top: 18px !important;
+}
+    
 /**
     Top and side bar
 */
@@ -75,7 +88,7 @@ body {
   content: "BOARDS" !important;
   width: 166px !important;
   background: #f4f5f5 !important;
-  font-size: 10pt !important;
+  font-size: 11pt !important;
   position: fixed !important;
   padding: 4px 0 6px 0 !important;
   top: 38px !important;
@@ -87,7 +100,7 @@ body {
   height: 0px !important;
   width: 158px !important;
   box-shadow: none !important;
-  font-family: "Lucida Grande", sans-serif !important;
+  font-family: "Calibri" !important;
 }
 
 #notifications {
@@ -210,9 +223,9 @@ body {
 
 #boardNavDesktopFoot .current::after {
   position: fixed !important;
-  top: 8px !important;
+  top: 7px !important;
   left: 10px !important;
-  font-size: 12pt !important;
+  font-size: 13pt !important;
   content: attr(title) !important;
   color: #fff !important;
   font-weight: normal !important;
@@ -241,14 +254,14 @@ body {
   position: relative !important;
   background-color: #fff !important;
   min-width: 100% !important;
-  margin-top: 5px !important;
-  margin-bottom: 8px !important;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
   border-radius: 5px !important;
   box-shadow: -1px 1px 1px rgba(0,0,0,.08);
 }
 
 .post.op {
-  margin-top: 25px !important;
+  margin-top: 28px !important;
 }
 
 .expanded-image,
@@ -425,8 +438,8 @@ body {
   right: 105px !important;
   top: 8px !important;
   z-index: 36 !important;
-  font-size: 10pt !important;
-  font-family: "Lucida Grande", sans-serif !important;
+  font-size: 11pt !important;
+  font-family: "Calibri" !important;
 }
 
 .cataloglink a::before,
@@ -436,24 +449,22 @@ body {
   right: 87px !important;
   top: 8px !important;
   z-index: 36 !important;
-  font-size: 10pt !important;
-  font-family: "Lucida Grande", sans-serif !important;
+  font-size: 11pt !important;
+  font-family: "Calibri" !important;
   pointer-events: none!important;
 }
 
 .settings-link {
   position: fixed !important;
   top: 8px !important;
-  right: 28px !important;
+  right: -10px !important;
   font-size: 0 !important;
 }
 
 .settings-link.fa-wrench:before {
-  font-family: "Lucida Grande", sans-serif !important;
+  font-family: "Calibri" !important;
   content: "Settings" !important;
-  font-size: 10pt !important;
-  font-weight: normal !important;
-  width: 0 !important;
+  font-size: 11pt !important;
 }
 
 #menu.dialog:not(.left) {
@@ -486,7 +497,7 @@ body {
   color: transparent !important;
   position: fixed !important;
   right: 5px !important;
-  top: 5px !important;
+  top: 6px !important;
   z-index: 10 !important;
   transition: 0.5s color ease;
 }
@@ -501,9 +512,9 @@ body {
   text-align: center !important;
   content: "WATCHED THREADS" !important;
   width: 166px !important;
-  padding: 9px 0 6px 0 !important;
+  padding: 5px 0 5px 0 !important;
   background: #f4f5f5 !important;
-  font-size: 10pt !important;
+  font-size: 11pt !important;
   font-weight: normal !important;
   position: absolute !important;
   left: 0 !important;
@@ -525,52 +536,62 @@ body {
 }
 
 #thread-watcher div {
+  margin-top:-5px!important;
   padding-right:15px!important;
+  padding-bottom:1px!important; 
 }
 
 #thread-watcher a {
-  margin-left:-1px!important;
+  margin-left: -3px!important;
+  width: 155px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 #thread-watcher > .move {
-  margin-top: -30px !important;
-  height: 15px !important;
-  position: absolute !important;
+  color: transparent !important;
+  height: 18px !important;
+  width: 144px !important;
+  margin-top: -35px !important;
   z-index: 800 !important;
+  position: absolute !important;
+}
+
+#thread-watcher .refresh,
+#thread-watcher .fa.fa-times {
+  display: none !important;
+}   
+    
+#thread-watcher .menu-button,
+#thread-watcher .menu-button:hover {
   color: transparent !important;
-  width: 165px !important;
-  padding: 4px 0 6px 0 !important;
+  width: 10px !important;
+  top: -13px !important;
+  right: -13px !important;
+} 
+    
+#thread-watcher a.entry:nth-child(1),
+#thread-watcher a.entry:nth-child(2) {
+  font-size: 9pt !important;
+  opacity: 1 !important;
+  left: 3px !important;
+  top: 2px !important;
+  width: 115px !important;
+}
+    
+#thread-watcher span.entry {
+  font-size: 9pt !important;
+  margin-top: 1px !important;
+  margin-bottom: -1px !important;
+  height: 20px !important;
+  width: 115px !important;
 }
 
-#thread-watcher div > a[href="javascript:;"]:not(.menu-button),
-#thread-watcher .close {
-  position: relative !important;
-  float: right !important;
-  left: 12px !important;
-  top: -1px !important;
-}
-
-#thread-watcher div > a[href="javascript:;"]:not(.menu-button),
-#thread-watcher .close,
-#thread-watcher .menu-button {
-  visibility: collapse !important;
-}
-
-#thread-watcher:hover div > a[href="javascript:;"]:not(.menu-button),
-#thread-watcher:hover .close,
-#thread-watcher:hover .menu-button {
-  visibility: visible !important;
-}
-
-#thread-watcher a[href="javascript:;"] {
-  position: relative !important;
-  top: -27px !important; 
-  right: -10px !important;
-  height: 10px !important;
-}
-
-#thread-watcher a[href="javascript:;"]:not(i) {
-  color: transparent !important;
+#thread-watcher label {
+  width: 115px !important;
+  margin-right: -15px !important;
+  height: 18px !important;
 }
 
 .closed {
@@ -876,6 +897,7 @@ a.quotelink {
 }
 
 .pages {
+  margin-top: -4px !important;
   text-align: center !important;
   float: none !important;
 }
@@ -1339,7 +1361,7 @@ input[name="sub"] {
 .hide-reply-button.stub .menu-button {
   font-size: 0px !important;
   color: transparent !important;
-  font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
+  font-family: "Calibri" !important;
   margin-top: 3px !important;
   margin-right: 3px !important;
 }
@@ -1351,13 +1373,13 @@ input[name="sub"] {
   content: "+" !important;
   font-size: 9pt !important;
   color: #999 !important;
-  font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
+  font-family: "Calibri" !important;
 }
  
 .stub a {
   margin-left: 0px !important;
   color: #999 !important;
-  font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
+  font-family: "Calibri" !important;
   font-size: 8pt !important;
   padding-left: 2px !important;
 }
