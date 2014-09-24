@@ -20,7 +20,7 @@
 Installation (assuming Firefox)
 -------------------------------
 
-* Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the Stilig.css there.
+* Install the Stylish extension to manage your userstyles; once installed, just click on "Write New Style", give it a name, and paste the CSS there.
 
 [1]: https://github.com/RiDeag/Stilig
 [2]: https://github.com/ccd0/4chan-x
